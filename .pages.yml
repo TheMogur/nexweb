@@ -1,0 +1,200 @@
+media:
+  input: assets/imatges
+  output: /assets/imatges
+  categories:
+  - image
+  rename: safe
+content:
+- name: web
+  label: Textos i fotografies de Nexweb
+  type: file
+  path: content/site.json
+  format: json
+  fields:
+  - name: hero
+    label: Portada
+    type: object
+    fields:
+    - name: titol
+      label: Titol
+      type: string
+    - name: subtitol
+      label: Subtitol
+      type: text
+    - name: distintiu
+      label: Distintiu
+      type: string
+    - name: etiqueta
+      label: Etiqueta
+      type: string
+  - name: beneficis
+    label: Beneficis
+    type: object
+    fields:
+    - name: titol
+      label: Titol
+      type: string
+    - name: descripcio
+      label: Descripcio
+      type: text
+    - name: temps
+      label: Temps
+      type: string
+    - name: complicacions
+      label: Complicacions
+      type: string
+    - name: presencia
+      label: Presencia
+      type: string
+  - name: serveis
+    label: Serveis
+    type: object
+    fields:
+    - name: titol
+      label: Titol
+      type: string
+    - name: presentacio_titol
+      label: Presentacio titol
+      type: string
+    - name: presentacio_text
+      label: Presentacio text
+      type: string
+    - name: reserves_titol
+      label: Reserves titol
+      type: string
+    - name: reserves_text
+      label: Reserves text
+      type: string
+    - name: promocio_titol
+      label: Promocio titol
+      type: string
+    - name: promocio_text
+      label: Promocio text
+      type: string
+  - name: clau_en_ma
+    label: Servei clau en mà
+    type: object
+    fields:
+    - name: titol
+      label: Titol
+      type: string
+    - name: disseny
+      label: Disseny
+      type: string
+    - name: mobil
+      label: Mobil
+      type: string
+    - name: domini
+      label: Domini
+      type: string
+    - name: seguretat
+      label: Seguretat
+      type: string
+    - name: correu
+      label: Correu
+      type: string
+    - name: suport
+      label: Suport
+      type: string
+  - name: proces
+    label: Procés
+    type: object
+    fields:
+    - name: titol
+      label: Titol
+      type: string
+    - name: pas1
+      label: Pas1
+      type: string
+    - name: pas2
+      label: Pas2
+      type: string
+    - name: pas3
+      label: Pas3
+      type: string
+    - name: pas4
+      label: Pas4
+      type: string
+    - name: pas5
+      label: Pas5
+      type: string
+  - name: plans
+    label: Plans
+    type: object
+    fields:
+    - name: titol
+      label: Titol
+      type: string
+    - name: essencial
+      label: Essencial
+      type: text
+    - name: funcionalitats
+      label: Funcionalitats
+      type: text
+  - name: contacte
+    label: Contacte
+    type: object
+    fields:
+    - name: titol
+      label: Titol
+      type: string
+    - name: subtitol
+      label: Subtitol
+      type: text
+    - name: introduccio
+      label: Introduccio
+      type: text
+  - name: cta
+    label: Crida final
+    type: object
+    fields:
+    - name: titol
+      label: Titol
+      type: string
+    - name: text
+      label: Text
+      type: text
+  - name: faq
+    label: Preguntes freqüents
+    type: object
+    fields:
+    - name: resposta1
+      label: Resposta1
+      type: text
+    - name: resposta2
+      label: Resposta2
+      type: text
+    - name: resposta3
+      label: Resposta3
+      type: text
+    - name: resposta4
+      label: Resposta4
+      type: text
+    - name: resposta5
+      label: Resposta5
+      type: text
+    - name: resposta6
+      label: Resposta6
+      type: text
+  - name: fotografies
+    label: Fotografies
+    type: object
+    fields:
+    - name: hero
+      label: Foto principal
+      type: image
+    - name: comerc
+      label: Comerç
+      type: image
+    - name: perruqueria
+      label: Perruqueria
+      type: image
+    - name: restaurant
+      label: Restaurant
+      type: image
+    - name: artesania
+      label: Artesania
+      type: image
+    - name: cafeteria
+      label: Cafeteria
+      type: image
