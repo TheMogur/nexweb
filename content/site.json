@@ -66,6 +66,6 @@
     "perruqueria": "assets/salon.webp",
     "restaurant": "assets/restaurant.webp",
     "artesania": "assets/craft.webp",
-    "cafeteria": "assets/cafe.webp"
+    "cafeteria": "/assets/imatges/cafeteria.jpg"
   }
 }
